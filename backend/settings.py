@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-)9fu$0&=^rtk0)fqqd@pnlzs$y^4tv1j(kz$n2a&@1iebt+n(4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -198,7 +198,6 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
-
 
 
 if os.getcwd() == '/app':
